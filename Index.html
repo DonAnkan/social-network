@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Networking Site</title>
+  <style>
+    /* Add your CSS styles here */
+    /* Reset some default styles */
+body, h1, h2, p, ul, li, button {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header, footer, main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+main {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+section h2 {
+  margin-bottom: 10px;
+}
+
+section#post-form {
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+/* Styles for profile image */
+.profileImage {
+  width: px; /* Adjust as needed */
+  height: 500px; /* Adjust as needed */
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Styles for profile information */
+.profileInfo p {
+  margin-bottom: 5px;
+}
+
+.profileInfo strong {
+  font-weight: bold;
+}
+/* Styles for friend cards */
+.friend-card {
+  display: inline-block;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.friend-card img {
+  width: 100px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Social Networking Site</h1>
+    <!-- Add navigation links here -->
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Profile Section -->
+    <section id="profile">
+      <h2>My Profile</h2>
+      <div id="profileInfo">
+        <!-- User profile information will be displayed here -->
+      </div>
+    </section>
+
+    <!-- Friends Section -->
+    <section id="friends">
+      <h2>Friends</h2>
+      <div id="friendsList">
+        <!-- Friend cards will be displayed here -->
+      </div>
+    </section>
+
+    <!-- Post Form -->
+    <section id="post-form">
+      <h2>Create Post</h2>
+      <form id="postForm">
+        <textarea id="postContent" placeholder="Write your post here"></textarea>
+        <input type="file" id="postImage" accept="image/*" multiple>
+        <button type="submit">Post</button>
+      </form> 
+    </section>
+
+    <!-- News Feed -->
+    <section id="news-feed">
+      <h2>News Feed</h2>
+      <!-- Display posts from friends here -->
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Social Networking Site</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
