@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function() {
     email: "ankans228@gmail.com",
     bio: "Web Developer",
     location: "INDIA",
-    profileImage: "/home/ankan/Pictures/IMG20240316220043.jpg"
+    profileImage: "lol.jpg"
   };
 
   // Function to display user profile information
@@ -136,9 +136,9 @@ document.addEventListener("DOMContentLoaded", function() {
     function fetchFriendsList() {
       // Dummy list of friends
       return [
-        { id: 1, name: "Friend 1", profileImage: "/home/ankan/image3.jpg" },
-        { id: 2, name: "Friend 2", profileImage: "/home/ankan/image1.jpg" },
-        { id: 3, name: "Friend 3", profileImage: "/home/ankan/image2.jpg" }
+        { id: 1, name: "Friend 1", profileImage: "image3.jpg" },
+        { id: 2, name: "Friend 2", profileImage: "image1.jpg" },
+        { id: 3, name: "Friend 3", profileImage: "image2.jpg" }
       ];
     }
   
